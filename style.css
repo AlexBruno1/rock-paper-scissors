@@ -1,0 +1,30 @@
+/* style.css */
+
+#titolo {
+    border-width: 2px ;
+    border-style:  solid;
+    border-color: black;
+    background-color: peachpuff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.button, .score {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
